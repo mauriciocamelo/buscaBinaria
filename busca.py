@@ -1,6 +1,6 @@
 def busca_binaria(lista, item):
     esquerda = 0
-    direita = len(lista)
+    direita = len(lista) - 1
     while esquerda <= direita:
         meio = (esquerda + direita) // 2
         palpite = lista[meio]
